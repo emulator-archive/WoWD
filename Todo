@@ -1,0 +1,150 @@
+_[MISC BUGS:]
+trade: put good, init trade, change item trade is still active!
+when changing bank slots, still apears the first slot items.
+You can move anything to quiver, thought should be able to move only arrows.
+spells like in x% will do smth --- all has 100% chance. 
+When u give a consumeable item to some1-> he can't use it.
+I learnt a bunch of spells from trainer then typed .start and they were all gone from spell book (had to relogin for it to come back)
+Trainers -> should not have rank 1 spell of the spells that your char has on create. Will cause you not to be able to learn rank 2 spells like fireball.
+If you AOE, near a player(not npc) of opposite faction, you do damage to him, even though he is not flagged for pvp.
+When Disenchanting Instead of opening a loot window, it goes directly in ur backpack (though i like it more this way :P)
+for instant spells: if u cast and move next moment-> it's interrupted though u can cast it wile running
+Rest system: u relax instantly as soon as u enter inn,that's completly  wrong u must stay in itt for some time.
+and u get tired very quickly ...too quickly
+Hearthstone displays CURRENT location to teleport, but teleports to correct 1.
+Queuing sessions is highly bugged (if you connect/disconnect many times in the queue, you add tons of ghost ppl that are NOT removed ...)
+
+
+_[PROFESSION BUGS:]
+you learn the profession, but not the basic recipes/stuff ...
+
+
+_[PET BUGS:]
+pet's spells do not work ->which spells
+when pet attacks some1,u press follow, it comes you,then goes away to mob again
+mana cost for pet summon is x% of BASE mana, not of total,not of current, so u can summon even with 1 mana
+'train me' FOR PET TRAINERS button crashes server
+
+
+_[AI BUGS:]
+ai ignores m_runspeed
+
+
+_[SPELLS BUGS:]
+if arcane missile has no target(was not specified, or target has died) -> attacks myself
+after flame strike u can't cast any spell(casting anim is not removed)-> prints another action in progress
+
+
+-- WARRIOR spells not working --
+Concussion Blow -> this is working
+Sunder Armor -> working
+Death Wish -> only immunity isnt working
+Battle Shout -> must work
+Recklessness -> only immunity isnt working
+Disarm -> Fixed but not tested
+Hamstring -> when you hamstring a mob/player,  it appears as a buff to him , not as a debuff. -> speed mod of this is not written
+Charge -> you can charge sometimes when you are in combat, its not supposed to happen. if you charge in undercity on someone, it charges through the walls, it should say  "No Path Available" lik on blizz.
+
+-- SHAMAN spells not working --
+*a lot of totems* -> you need to write their dummy one by one
+Lightning Shield
+Ancestral Spirit
+
+-- MAGE spells not working --
+Ice Block -> fixed
+Ice Barrier -> fixed
+Combustion ->wtf
+Dampen Magic 
+Arcane Brilliance -> must work who test these
+Arcane Power -> working
+Presence of Mind ->working
+Cold Snap -> log
+Mage Armor -> need regen rewrite
+Amplify Magic -> fixed
+Fire/Frost Ward ->absorb is working but i dont know "Apply Aura: Reflect School Spells % (Frost)"
+Blink -> HALFFIXED cant teleport tru walls
+
+-- DRUID spells not working --
+Mangle -> combo points dont affect stun duration
+Traquility -> dont heals -> are you sure
+Gift of the Wild -> must work
+Omen Of Clarity
+Rebirth -> must work
+Remove Curse -> fixed
+Nature's Grasp
+Fearie Fire
+
+-- ROGUE spells not working --
+Feint -> Must work
+Rupture -> dont use the combo points
+Cold Blood
+Expose Armor -> gives more armor instead of decrease. ->must work
+Kidney Shot -> dont use the combo points
+Slice and Dice -> dont use the combo points
+Preparation
+Vanish
+Hemorraghe -> damage is not correct
+Gouge -> dont stop the attack
+
+-- WARLOCK spells not working --
+Inferno -> dont gives the damage on summuning, purple chaing wrapped around chest animation not working
+Eye of kilrogg -> dont spawns
+Drain Mana
+Death Coil
+Curse of Agony -> this is working
+Curse of Idiocy -> decreases mp instead of stats Oo
+Curse of tongues
+Curse of Weakness
+Health Funel
+Demonic Sacrifica
+Dark Pact
+Curse of Exhaustion
+Banish -> dont let apply in the targets
+Life Tap
+Soul Link
+
+-- PRIEST spells not working --
+Hex Of Weakness
+Dispel Magic
+Inner Focus
+Mana Burn - gives damage, dont burns the mana
+Power Infusion
+Power Word Shield
+Prayer Of Fortitude
+LightWell
+Prayer Of Healing - only heals self
+Shadow Form - only gives more damage
+Resurrection
+Vampiric Embrace
+Devoring Plague - dont heals
+Feedback
+Touch Of Weakness
+Shackle Undead
+
+
+-----------------------------------------------------------
+
+
+_[QUEST BUGS:]
+
+Grape Manifest - cant deliver Grape Manifest to NPC
+Package for Thurman - cant deliver Thurman's Sewing Kit to NPC
+Wine Shop Advert - cant deliver Wine Ticket to NPC
+Give Gerard a Drink - cant deliver Refreshing Spring Water.
+Pie for Billy - just fuckedup.
+Encrypted Sigil - you dont recive the item, for player to read.
+Zenn's Bidding - it haves a addiconal objective: Centipaar Swarmer slain: 0/1. http://wow.allakhazam.com/db/quest.html?wquest=488 (dunno if it was changed in official...)
+Dolanaar Delivery
+Iverron's Antidote - GO dont give quest item, (i tested this a bit a while, maybe is fixed now. burlex test :P)
+The Apple Falls - the npc for it dont have the information at all of the quest.
+
+
+ 
+
+
+
+
+_[OPTIMIZATIONS:]  (!!TODO MUCH LATER!!)
+
+* Put 'played time' into 2 separate INT fields
+* 

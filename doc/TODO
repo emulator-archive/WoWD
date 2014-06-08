@@ -1,0 +1,37 @@
+If you would like to work on an assigned Todo please check with the dev in the channel before you make any changes.
+If you want something unassigned to work on just change it to assigned & give comment on svn.
+When youre done with something, change "-" to "+".
+
+
+
+TODO Features
+[+]make wowd compatible with 1.7.0
+[+]Finish creature templates
+[+]Exploration & xp - need xp conf
+[-]Implement porper PvP system -unassigned (I will write detailed facts by myself before its assigned to make it as accurate as possible)
+[-]Add lua support -assigned nearly finished
+[-]Duel -assigned (look in facts bottom of the page)
+[-]Add quest system -assigned (look in facts bottom of the page if you want :P)
+[-]Support terrain data -unassigned
+[-]Split instances into different servers -unassigned
+[-]Enviromental damage -unassigned (look in facts bottom of the page)
+[+]Parry, Dodge, Block,crits -assigned (we got more important stuff for now) (look in facts bottom of the page)
+[-]Zones -unassigned
+[+]Reputation System
+[-]Honor System -unassigned (dont touch till PvP system is done)
+[-]Guilds -assigned
+[-]Pets -unassigned
+[-]Fishing, Weapon Smithing, Skinning etc -assigned
+[-]Raids -assigned
+
+TODO Fixes & bugs
+[+]Creature Movement -assigned
+[-]Waypoints (waiting for scripting engine)
+[-]Rewrite Creature AI System -assigned (look in facts bottom of the page)
+[+]Fix/Finish item code -assigned
+[-]Finish spell code -unassigned (but still ask on channel, maybe assigned)
+[+]Change loot system code -assigned
+[-]Trainer fixing -assigned
+[-]Fix Auction House -assigned
+[+]Fix trade
+[+]Finish gameobject code -assigned
